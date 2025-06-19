@@ -30,6 +30,9 @@ jobs:
         run: npm install
         working-directory: lib/add_emails
 
+      - name: Write Firebase Admin SDK key
+        run: echo "${{ secrets.FIREBASE_ADMIN_SDK }}" > lib/add_emails/student-info-app-88119-firebase-adminsdk-fbsvc-2c905f2110.json
+
       - name: Build release APK
         run: flutter build apk --release
 
