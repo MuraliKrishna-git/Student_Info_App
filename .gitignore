@@ -51,6 +51,7 @@ web/.dart_tool/
 
 # Firebase/Secrets
 lib/add_emails/student-info-app-88119-firebase-adminsdk-fbsvc-2c905f2110.json
+android/app/google-services.json
 
 # Symbolication & Obfuscation
 app.*.symbols
@@ -65,6 +66,3 @@ app.*.map.json
 
 # Node (if using backend/scripts)
 node_modules/
-
-# Firebase secret files
-android/app/google-services.json
