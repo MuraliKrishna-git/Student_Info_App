@@ -1,0 +1,67 @@
+# Flutter / Dart / Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+build/
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+
+# VS Code
+.vscode/
+
+# iOS
+ios/.symlinks/
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/build/
+
+# Android
+android/.gradle/
+android/captures/
+android/app/build/
+android/app/*.jks
+
+# macOS
+macos/Flutter/ephemeral/
+macos/build/
+macos/Flutter/App.framework
+macos/Flutter/FlutterMacOS.framework
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Windows
+windows/Flutter/ephemeral/
+windows/build/
+
+# Linux
+linux/Flutter/ephemeral/
+linux/build/
+
+# Web
+web/generated_plugin_registrant.dart
+web/.dart_tool/
+
+# Firebase/Secrets
+lib/add_emails/student-info-app-88119-firebase-adminsdk-fbsvc-2c905f2110.json
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# Logs, temp, etc
+*.log
+*.tmp
+*.swp
+*.lock
+.DS_Store
+
+# Node (if using backend/scripts)
+node_modules/
